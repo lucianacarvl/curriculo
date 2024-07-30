@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #0e0e0e;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color:#6503ac;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 4px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    background-color: #6503ac;
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+section p, section ul {
+    margin: 0 0 10px 0;
+}
+
+section ul {
+    padding-left: 20px;
+}
+
+a {
+    color: #0e0e0e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #6503ac;
+}
+
+.info p {
+    display: flex;
+    align-items: center;
+}
+
+.info i {
+    margin-right: 10px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column, .right-column {
+    width: 48%;
+}
+
+.right-column ul {
+    padding-left: 20px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.progress {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #4B0082;
+    text-align: right;
+    padding-right: 5px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
