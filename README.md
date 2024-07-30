@@ -1,2 +1,2 @@
-# curriculo
-currículo 2024
+# currículo
+link:
